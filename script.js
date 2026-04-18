@@ -108,6 +108,7 @@ const roles = ["Power BI Developer", "Data Analyst", "ML Engineer", "SQL Archite
 let rIdx = 0, cIdx = 0, deleting = false;
 
 function typeLoop() {
+    if (!typingEl) return; // Safety check
     const word = roles[rIdx];
     typingEl.textContent = word.substring(0, deleting ? --cIdx : ++cIdx);
     if (!deleting && cIdx === word.length) setTimeout(() => deleting = true, 2200);
