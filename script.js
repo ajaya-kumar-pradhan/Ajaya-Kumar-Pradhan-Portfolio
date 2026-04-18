@@ -11,22 +11,22 @@ const projects = [
         shortDesc: "Strategic health metrics and patient outcome monitoring (ClinicalOps360).",
         fullDesc: "Enterprise clinical intelligence dashboard monitoring patient throughput, occupancy rates, and financial KPIs like RevPAR and ADR. Features a Star Schema model with 40+ DAX measures and Row-Level Security (RLS) for data governance.",
         tech: ["Power BI", "DAX", "SQL Server", "Architecture"],
-        image: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1576091160550-2173dad99a01?q=80&w=800&auto=format&fit=crop",
         pbiUrl: "https://app.powerbi.com/view?r=eyJrIjoiM2FkOGQ5OWYtNzgyMC00MDM1LTk4ZmUtMzA5NGFhYjk1OTk3IiwidCI6IjdlMzEwODQ1LTg0ZTEtNGRiOC1hZjk4LTcwNDA0MTkwZDhkZSJ9",
         mlUrl: null,
         github: "https://github.com/ajaya-kumar-pradhan/Healthcare-Analytics-Dashboard"
     },
     {
-        id: "churn",
-        title: "Churn Prediction & Retention System",
-        type: "Machine Learning",
-        shortDesc: "End-to-end DS pipeline with XGBoost and automated retention strategies.",
-        fullDesc: "Production-level ML system achieving 99%+ recall on customer churn. Integrates SHAP for model explainability and a rule-based engine that generates actionable retention strategies for high-risk segments.",
-        tech: ["Python", "XGBoost", "SHAP", "Streamlit"],
-        image: "https://images.unsplash.com/photo-1551288049-bbbda536ad37?q=80&w=800&auto=format&fit=crop",
-        pbiUrl: null,
-        mlUrl: "https://huggingface.co/spaces/ajaya-kumar-pradhan/Churn-Prediction-System",
-        github: "https://github.com/ajaya-kumar-pradhan/churn-prediction-system"
+        id: "ecommerce",
+        title: "Retail Ecommerce Analytics",
+        type: "Power BI Project",
+        shortDesc: "Global e-commerce performance monitoring with advanced DAX and segmentation.",
+        fullDesc: "Enterprise-grade Power BI dashboard for global performance monitoring. Includes YTD/YoY growth tracking, customer segmentation, and geographic analysis with a fully interactive Star Schema.",
+        tech: ["Power BI", "DAX", "SQL", "Excel"],
+        image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=800&auto=format&fit=crop",
+        pbiUrl: "https://app.powerbi.com/view?r=eyJrIjoiZDA0M2E1YWUtMGU2NC00NDk2LTg1MjUtOTRhNmM5MDk5OTEzIiwidCI6IjdlMzEwODQ1LTg0ZTEtNGRiOC1hZjk4LTcwNDA0MTkwZDhkZSJ9",
+        mlUrl: null,
+        github: "https://github.com/ajaya-kumar-pradhan/E-Commerce-Analytics-Intelligence-Dashboard"
     },
     {
         id: "loanguard",
@@ -41,16 +41,28 @@ const projects = [
         github: "https://github.com/ajaya-kumar-pradhan/Credit-Risk-Assessment-Loan-Default-Prediction-System"
     },
     {
-        id: "ecommerce",
-        title: "Retail Ecommerce Analytics",
+        id: "banking",
+        title: "Banking Analytics Hub",
         type: "Power BI Project",
-        shortDesc: "Global e-commerce performance monitoring with advanced DAX and segmentation.",
-        fullDesc: "Enterprise-grade Power BI dashboard for global performance monitoring. Includes YTD/YoY growth tracking, customer segmentation, and geographic analysis with a fully interactive Star Schema.",
-        tech: ["Power BI", "DAX", "SQL", "Excel"],
-        image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=800&auto=format&fit=crop",
-        pbiUrl: "https://app.powerbi.com/view?r=eyJrIjoiZDA0M2E1YWUtMGU2NC00NDk2LTg1MjUtOTRhNmM5MDk5OTEzIiwidCI6IjdlMzEwODQ1LTg0ZTEtNGRiOC1hZjk4LTcwNDA0MTkwZDhkZSJ9",
+        shortDesc: "Financial analytics for loan portfolio risk, NPL tracking, and performance monitoring.",
+        fullDesc: "Financial analytics solution focused on Non-Performing Loans (NPL), delinquency rates, and automated ETL pipelines. Features customer segmentation insights, loan portfolio analysis, and financial performance tracking with automated refresh.",
+        tech: ["Power BI", "SQL Server", "ETL", "Analytics"],
+        image: "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?q=80&w=800&auto=format&fit=crop",
+        pbiUrl: "https://app.powerbi.com/view?r=eyJrIjoiOTQ5Y2UyY2UtNWM2NC00NDYyLTllNWUtYmU1ZDhkM2YwYzg5IiwidCI6IjdlMzEwODQ1LTg0ZTEtNGRiOC1hZjk4LTcwNDA0MTkwZDhkZSJ9",
         mlUrl: null,
-        github: "https://github.com/ajaya-kumar-pradhan/E-Commerce-Analytics-Intelligence-Dashboard"
+        github: "https://github.com/ajaya-kumar-pradhan/Banking-Analytics-Dashboard"
+    },
+    {
+        id: "churn",
+        title: "Churn Prediction & Retention System",
+        type: "Machine Learning",
+        shortDesc: "End-to-end DS pipeline with XGBoost and automated retention strategies.",
+        fullDesc: "Production-level ML system achieving 99%+ recall on customer churn. Integrates SHAP for model explainability and a rule-based engine that generates actionable retention strategies for high-risk segments.",
+        tech: ["Python", "XGBoost", "SHAP", "Streamlit"],
+        image: "https://images.unsplash.com/photo-1551288049-bbbda536ad37?q=80&w=800&auto=format&fit=crop",
+        pbiUrl: null,
+        mlUrl: "https://huggingface.co/spaces/ajaya-kumar-pradhan/Churn-Prediction-System",
+        github: "https://github.com/ajaya-kumar-pradhan/churn-prediction-system"
     },
     {
         id: "logistics",
@@ -75,6 +87,30 @@ const projects = [
         pbiUrl: null,
         mlUrl: "https://huggingface.co/spaces/ajayapradhanconnect/Fraud-Detection-Risk-Intelligence-System",
         github: "https://github.com/ajaya-kumar-pradhan/fraud-detection-risk-intelligence-system"
+    },
+    {
+        id: "airline",
+        title: "Airline Referral Predictor",
+        type: "Machine Learning",
+        shortDesc: "Predicts customer recommendation likelihood from 10K+ airline reviews.",
+        fullDesc: "Predictive model based on 10K+ customer reviews. Includes exploratory data analysis, feature engineering, and a classification model to predict the likelihood of passenger recommendations. Deployed on Hugging Face.",
+        tech: ["Python", "Scikit-Learn", "EDA", "Streamlit"],
+        image: "https://images.unsplash.com/photo-1436491865332-7a61a109c0f3?q=80&w=800&auto=format&fit=crop",
+        pbiUrl: null,
+        mlUrl: "https://huggingface.co/spaces/ajayapradhanconnect/Airline-Passenger-Referral-Prediction",
+        github: "https://github.com/ajaya-kumar-pradhan/Airline-Passenger-Referral-Prediction"
+    },
+    {
+        id: "book",
+        title: "Book Recommendation Engine",
+        type: "Machine Learning",
+        shortDesc: "Personalized book recommendations using KNN and collaborative filtering.",
+        fullDesc: "A ML recommendation system using K-Nearest Neighbors and collaborative filtering. Provides personalized book suggestions based on user ratings and metadata. Features interactive search and result UI deployed on Hugging Face.",
+        tech: ["Python", "KNN", "Flask", "Streamlit"],
+        image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=800&auto=format&fit=crop",
+        pbiUrl: null,
+        mlUrl: "https://huggingface.co/spaces/ajayapradhanconnect/Book-Recommendation-System",
+        github: "https://github.com/ajaya-kumar-pradhan/Book-Recommendation-System"
     },
     {
         id: "amazon",
